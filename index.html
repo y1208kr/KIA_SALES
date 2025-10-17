@@ -132,6 +132,7 @@
         }
         .step-title {
             font-weight: 700;
+            white-space: nowrap;
         }
         .step.active .step-number {
             background-color: var(--kia-red);
@@ -198,7 +199,7 @@
                 </div>
                 <div class="flex-grow flex flex-col justify-center">
                     <h3 class="text-xl font-bold mb-4 text-center module-subtitle">👤 핵심 고객 페르소나 정의</h3>
-                    <p class="text-sm text-gray-600 mb-8 text-center">공략하고자 하는 핵심 고객의 특징을 구체적으로 입력하여 AI 페르소나 분석 리포트를 생성함.</p>
+                    <p class="text-sm text-gray-600 mb-8 text-center">AI가 오토 컨설턴트의 감과 경험에 의존하던 고객 분석을 데이터 기반으로 전환하여 체계적인 접근을 지원함.</p>
                     <div class="bg-gray-50 border border-gray-200 rounded-xl p-8 w-full space-y-4">
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div>
@@ -246,7 +247,7 @@
                 </div>
                 <div class="flex-grow flex flex-col justify-center">
                     <h3 class="text-xl font-bold mb-4 text-center module-subtitle">🎯 기아 맞춤형 영업 전략 방향 설정</h3>
-                    <p class="text-sm text-gray-600 mb-8 text-center">M1의 페르소나와 핵심 목표를 기반으로 시장을 선도할 AI 기반 영업 전략을 도출함.</p>
+                    <p class="text-sm text-gray-600 mb-8 text-center">AI가 분석된 페르소나에 맞춰 가장 효과적인 맞춤형 영업 전략을 자동으로 수립하여 컨설턴트의 전략적 파트너가 됨.</p>
                     <div class="bg-gray-50 border border-gray-200 rounded-xl p-8 w-full space-y-4">
                          <div>
                             <label for="m2-persona-input">1. M1에서 생성된 페르소나 리포트</label>
@@ -277,7 +278,7 @@
                 </div>
                 <div class="flex-grow flex flex-col justify-center">
                     <h3 class="text-xl font-bold mb-4 text-center module-subtitle">⚙️ 전략 기반 세일즈 프로세스 설계</h3>
-                    <p class="text-sm text-gray-600 mb-8 text-center">M2에서 도출된 영업 전략을 바탕으로, 실행 가능한 단계별 프로세스를 구축함.</p>
+                    <p class="text-sm text-gray-600 mb-8 text-center">AI가 추상적인 전략을 구체적인 행동 단계로 설계하여, 오토 컨설턴트가 체계적으로 영업 활동을 수행하도록 가이드함.</p>
                     <div class="bg-gray-50 border border-gray-200 rounded-xl p-8 w-full space-y-4">
                         <div>
                             <label for="m3-strategy-input">1. M2에서 생성된 영업 전략</label>
@@ -300,7 +301,7 @@
                 </div>
                 <div class="flex-grow flex flex-col justify-center">
                     <h3 class="text-xl font-bold mb-4 text-center module-subtitle">📰 상황 맞춤형 영업 시나리오 개발</h3>
-                    <p class="text-sm text-gray-600 mb-8 text-center">M1~M3 분석 결과와 최신 자동차 시장 동향을 종합하여 현실적인 영업 시나리오를 구성함.</p>
+                    <p class="text-sm text-gray-600 mb-8 text-center">AI가 실시간 시장 뉴스와 고객 상황을 연결하여, 컨설턴트가 고객의 관심을 즉각적으로 끌 수 있는 시의적절한 상담을 준비시킴.</p>
                        <div class="bg-gray-50 border border-gray-200 rounded-xl p-8 w-full space-y-4">
                             <div>
                                 <label for="m4-context-input">1. M1~M3 핵심 결과 요약</label>
@@ -327,7 +328,7 @@
                 </div>
                    <div class="flex-grow flex flex-col justify-center">
                         <h3 class="text-xl font-bold mb-4 text-center module-subtitle">📊 거시 환경 분석 기반 SWOT 및 과제 도출</h3>
-                        <p class="text-sm text-gray-600 mb-8 text-center">AI가 외부 환경(정책, 경제, 사회, 기술)을 분석하여 기회/위협 요소를 도출하고, 이를 내부 역량과 결합하여 우선 과제를 선별함.</p>
+                        <p class="text-sm text-gray-600 mb-8 text-center">AI가 거시 환경과 경쟁 상황을 실시간으로 분석하여, 컨설턴트가 시장의 판도를 읽고 경쟁 우위를 확보할 전략을 제시함.</p>
                        <div class="bg-gray-50 border border-gray-200 rounded-xl p-8 w-full space-y-4">
                              <div>
                                 <label for="m5-context-input">1. M1~M4 핵심 결과 요약</label>
@@ -362,7 +363,7 @@
                 </div>
                 <div class="flex-grow flex flex-col justify-center">
                     <h3 class="text-xl font-bold mb-4 text-center module-subtitle">🗣️ 최종 종합, 실전 상담 스크립트 생성</h3>
-                    <p class="text-sm text-gray-600 mb-8 text-center">1~5번 모듈의 결과물을 종합하여, 고객과의 상담을 성공으로 이끌 SPIN 셀링 스크립트를 완성함.</p>
+                    <p class="text-sm text-gray-600 mb-8 text-center">AI가 모든 분석 결과를 종합하여 컨설턴트가 실전에서 바로 사용할 수 있는 설득력 높은 맞춤형 상담 스크립트를 제공함.</p>
                     <div class="bg-gray-50 border border-gray-200 rounded-xl p-8 w-full space-y-4">
                         <div>
                             <label for="m6-summary-input">1. M1~M5 핵심 결과 요약</label>
@@ -385,7 +386,7 @@
                 </div>
                    <div class="flex-grow flex flex-col justify-center">
                         <h3 class="text-xl font-bold mb-4 text-center module-subtitle">🗂️ AI 분석 종합 대시보드</h3>
-                        <p class="text-sm text-gray-600 mb-8 text-center">모든 단계의 AI 분석 결과를 한 곳에서 확인하고 관리함.</p>
+                        <p class="text-sm text-gray-600 mb-8 text-center">AI가 생성한 모든 데이터를 한눈에 볼 수 있는 대시보드를 제공하여, 컨설턴트가 자신의 영업 과정을 복기하고 개선하도록 도움.</p>
                        <div class="bg-gray-50 border border-gray-200 rounded-xl p-8 w-full">
                             <button id="report-generator-btn" class="gemini-button w-full mb-6">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 15v4c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2v-4M17 9l-5 5-5-5M12 14V3"/></svg>
